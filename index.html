@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pirate Game</title>
+    <link
+      rel="icon"
+      type="image/icon"
+      href="https://images.unsplash.com/photo-1599038988300-2e3f04d87f8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJlYXN1cmUlMjBodW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Pirate Treasure Hunt</h1>
+    <h2>Find the Treasure!</h2>
+    <ol class="instructions">
+      <h3>Instructions</h3>
+      <li>Click the boxes to reveal what's on the map</li>
+      <li>If you click on the bomb, you lose</li>
+      <li>If you click on the treasure, you win</li>
+      <br />
+      <img
+        src="https://images.unsplash.com/photo-1612257998531-70e0d0a15f6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJlYXN1cmUlMjBodW50fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+      />
+    </ol>
+
+    <button type="button" onclick="location.reload()">Restart Game</button>
+
+    <div>
+      <table>
+        <tr>
+          <td id="clickCount">Click Count: 0</td>
+        </tr>
+      </table>
+
+      <table border="1">
+        <tr>
+          <td id="0" onclick="treasureFunc(0)">?</td>
+          <td id="1" onclick="treasureFunc(1)">?</td>
+          <td id="2" onclick="treasureFunc(2)">?</td>
+        </tr>
+
+        <tr>
+          <td id="3" onclick="treasureFunc(3)">?</td>
+          <td id="4" onclick="treasureFunc(4)">?</td>
+          <td id="5" onclick="treasureFunc(5)">?</td>
+        </tr>
+
+        <tr>
+          <td id="6" onclick="treasureFunc(6)">?</td>
+          <td id="7" onclick="treasureFunc(7)">?</td>
+          <td id="8" onclick="treasureFunc(8)">?</td>
+        </tr>
+      </table>
+    </div>
+
+    <footer>
+      &copy; Created by Bao, John, Laura
+      <a href="" target="_blank"></a>
+    </footer>
+    <script type="text/javascript" src="practice.js"></script>
+  </body>
+</html>

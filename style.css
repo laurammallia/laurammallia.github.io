@@ -1,0 +1,84 @@
+
+    body {
+    background: url("https://images.unsplash.com/photo-1590880449155-b54f958ce314?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2629&q=80") fixed;
+    background-size: cover;
+    
+    font-family: pirata one;
+    text-align: center;
+    color: white;
+    
+}
+
+h1 {
+    font-size: 55px
+}
+
+h2 {
+
+}
+
+.instructions {
+    text-align: center;
+    list-style-position: inside
+}
+
+.instructions li{
+    text-align: left;
+    text-indent: 37%
+    
+}
+
+table {
+    display: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    animation-duration: 4s;
+    animation-name: heading;
+  }
+  
+  @keyframes heading {
+    0% {
+      transform: scaleX(0.5);
+      opacity: 0;
+    }
+    60% {
+      transform: scaleX(1.6);
+      opacity: 1;
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
+  
+
+td {
+    font-size: 40px;
+    height: 100px;
+    width: 100px; 
+}
+
+.cell {
+    height: 100px;
+    width: 100px;
+    background: url(https://media.giphy.com/media/3oz8xJYOcJFeeJaEj6/giphy.gif);
+    background-size: cover;
+}
+
+#clickCount {
+    font-size: 20px;
+}
+
+#outer {
+    border-color: gray;
+    border-width: 0.5cm;
+    border-style:ridge;
+}
+
+h2, h3, li {
+    font-size: 20pt;
+}
+
